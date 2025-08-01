@@ -1,0 +1,6 @@
+name = "solana-airdrop-worker"
+type = "javascript"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+
+triggers = { crons = ["5 0 * * *"] }
