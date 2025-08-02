@@ -1,4 +1,4 @@
-name = "solana-airdrop-worker"
+name = "airdropdevnet"
 main = "worker.js"  # or whatever your entry file is named
 compatibility_date = "2025-08-01"
 triggers = { crons = ["5 0 * * *"] }
